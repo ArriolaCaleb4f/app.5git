@@ -1,0 +1,58 @@
+@charset "utf-8";
+body {
+	font-size: 16px;
+	background-color: #003;
+     }
+/* CSS Document */
+ /*Instalaciones*/
+ #galeria h2 {
+	 text-align: center;
+	 
+ }
+ #collage {
+	 widht: 50%;
+	 margin: 10px auto;
+	 text-align: center;
+ }
+ .recuerdos {
+	 width: 28%;
+	 display: inline-block;
+	 margin: 5px;
+	
+ }
+ .recuerdos figure {
+	 width: 100%;
+	 margin: 0;
+	 background-color: #000;
+	 overflow: hidden;
+ }
+ /*mientras mas se acerque al 0 es mas opaco*/
+ .recuerdos figure img {
+	 width: 50%;
+	 height: auto;
+	 opacity: 0.35;
+	 transform: scale(1.5);
+	 transform: all 0.5s linear;
+ }
+
+ .recuerdos figure img:hover {
+	 transform: scale(1);
+	 opacity: 1;
+ }
+ .recuerdos figcaption {
+	 text-transform: uppercase;
+	 color: #FFF;
+ }
+  #ejemplo {
+	background-image: url(../fotos/IMG-20170913-WA0001.jpg);
+	width: 10%;
+	 width: 100%;
+	 margin: 11px auto;
+	 text-align: center;
+ }
+ h1,h2 {
+	 color: #FFF;
+ }
+ h3 {
+	 color: #CFC;
+ }
